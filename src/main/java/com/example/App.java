@@ -13,7 +13,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        int n = 5;
-        System.out.println("Factorial of " + n + " = " + factorial(n));
+        System.out.println("Factorial of 5 = " + factorial(5));
     }
 }

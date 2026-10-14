@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class AppTest {
     @Test
-    public void testFactorial() {
+    public void testPositiveNumber() {
         assertEquals(120L, App.factorial(5));
     }
 
@@ -15,7 +15,7 @@ public class AppTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void testNegative() {
-        App.factorial(-1);
+    public void testNegativeNumber() {
+        App.factorial(-5);
     }
 }
